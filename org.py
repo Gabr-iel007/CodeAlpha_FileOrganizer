@@ -1,7 +1,7 @@
 import os
 import shutil
 
-folder_path = r"C:\Users\Olamide\Desktop\Test"
+folder_path = input("Enter folder path: ").strip()
 
 files = os.listdir(folder_path)
 
